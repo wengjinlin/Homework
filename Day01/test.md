@@ -134,3 +134,60 @@ user1
 ```
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 3levelMenu程序的测试
+
+## 开始测试
+
+### 1.进入各层级及各层级返回功能
+
+#### 	1).测试数据
+
+```
+B 浙江省 杭州市 b b 江苏省 南京市 B 无锡市
+```
+
+
+#### 	2).测试结果
+
+![](C:\Users\Administrator\Documents\Homework\Day01\test\test7.png)
+### 2.各层级退出功能
+#### 	1).测试数据
+
+```
+Q
+福建省 q
+江苏省 徐州市 q
+```
+
+
+#### 	2).测试结果
+
+![](C:\Users\Administrator\Documents\Homework\Day01\test\test8.png)
+![](C:\Users\Administrator\Documents\Homework\Day01\test\test9.png)
+![](C:\Users\Administrator\Documents\Homework\Day01\test\test10.png)
+### 3.各层级非法输入拦截功能
+#### 	1).测试数据
+
+```
+sdfs 浙江省 水电费 杭州市 水电费 Q
+```
+
+
+#### 	2).测试结果
+
+![](C:\Users\Administrator\Documents\Homework\Day01\test\test11.png)
