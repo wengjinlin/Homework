@@ -1,6 +1,6 @@
 import socket
 
-ip = "192.168.1.3"
+ip = "0.0.0.0"
 port = 9999
 
 def get_socket():
