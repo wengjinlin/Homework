@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+}
+#top_right a{
+    color: #999;
+    text-decoration: none;
+}
+#top_right a:hover{
+    color: #f10214;
+}
+#top{
+    border-bottom: 1px solid #ddd;
+    background-color: #e3e4e5;
+    height: 30px;
+    line-height: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+#top_left{
+    width: 258px;
+}
+#top_right{
+    width: 728px;
+}
+#location{
+    position: relative;
+}
+#choice_province{
+    position: absolute;
+    right: -273px;
+    top: 31px;
+    border: 1px solid #e3e4e5;
+    border-top: 0;
+    background-color: white;
+}
+#location_icon{
+    margin-top: 4px;
+}
+#location_text{
+    font-size: small;
+    color: #999;
+}
+#web_navigation{
+    position: absolute;
+    top: 30px;
+    right: -1px;
+    border: 1px solid #e3e4e5;
+    border-top: 0;
+    background-color: white;
+}
+.w{
+    margin: auto;
+    width: 990px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.top_text{
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: small;
+
+}
+.top_text_{
+    padding-left: 7px;
+    padding-right: 14px;
+    font-size: small;
+    color: #999;
+    position: relative;
+}
+.top_icon_down{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.delimiter{
+    margin: 11px 5px 0;
+    width: 1px;
+    height: 10px;
+    background-color: #ccc;
+}
+.hidden{
+    display: none;
+}
+#customer_service{
+    position: absolute;
+    top: 30px;
+    right: -1px;
+    border: 1px solid #e3e4e5;
+    border-top: 0;
+    background-color: white;
+}
+#my_shop{
+    position: absolute;
+    top: 30px;
+    right: -1px;
+    border: 1px solid #e3e4e5;
+    border-top: 0;
+    background-color: white;
+}
+#head{
+    height: 80px;
+    margin-top: 30px;
+}
+#logo{
+    height: 60px;
+    margin: 10px 0;
+    width: 300px;
+}
+#welcome{
+    width: 110px;
+    height: 40px;
+    background: url("../icon/C-icon.png") no-repeat;
+    margin-top: 20px;
+}
+#no_commodity{
+    height: 98px;
+    padding: 80px 0 120px;
+}
+#message{
+    background: url("../icon/no-login-icon.png") 250px 22px no-repeat;
+    height: 98px;
+    padding-left: 341px;
+}
+#message_{
+    padding-top: 23px;
+    padding-bottom: 7px;
+}
+#message_login{
+    height: 25px;
+    line-height: 25px;
+    background-color: #e74649;
+    border-radius: 3px;
+    padding: 0 10px;
+    width: 30px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+#message_index{
+    font-size: 12px;
+    margin-left: 20px;
+    height: 25px;
+    line-height: 25px;
+}

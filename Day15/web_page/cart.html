@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的购物车-金陵商城</title>
+    <link rel="stylesheet" href="../css/cart.css">
+    <script src="../javascript/cart.js"></script>
+</head>
+<body>
+    <div id="top">
+        <div class="w">
+            <div id="top_left" class="left">
+                <div id="location" class="right" onmouseover="show_next('choice_province');" onmouseout="hidden_next('choice_province');">
+                    <div id="location_icon" class="left"><img src="../icon/location.jpg"/></div>
+                    <div id="location_text" class="left">浙江</div>
+                    <div id="choice_province" class="hidden"><img src="../image/sf.jpg"/></div>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div id="top_right" class="right">
+                <div class="top_text_ right" onmouseover="show_next('web_navigation');" onmouseout="hidden_next('web_navigation');">
+                    网站导航
+                    <div class="top_icon_down">▽</div>
+                    <div id="web_navigation" class="hidden"><img src="../image/dh.jpg"/></div>
+                </div>
+                <div class="delimiter right"></div>
+                <div class="top_text_ right" onmouseover="show_next('customer_service');" onmouseout="hidden_next('customer_service');">
+                    客户服务
+                    <div class="top_icon_down">▽</div>
+                    <div id="customer_service" class="hidden"><img src="../image/kh.jpg"/></div>
+                </div>
+                <div class="delimiter right"></div>
+                <div class="top_text right"><a href="">企业采购</a></div>
+                <div class="delimiter right"></div>
+                <div class="top_text right"><a href="">金陵会员</a></div>
+                <div class="delimiter right"></div>
+                <div class="top_text_ right" onmouseover="show_next('my_shop');" onmouseout="hidden_next('my_shop');">
+                    我的金陵
+                    <div class="top_icon_down">▽</div>
+                    <div id="my_shop" class="hidden"><img src="../image/jl.jpg"/></div>
+                </div>
+                <div class="delimiter right"></div>
+                <div class="top_text right"><a href="">我的订单</a></div>
+                <div class="delimiter right"></div>
+                <div class="top_text right"><a href="register.html" target="_blank">免费注册</a></div>
+                <div class="top_text right"><a href="login.html">请登录</a></div>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div id="head" class="w">
+        <div id="logo" class="left">
+            <a href="index.html"><div class="left"><img src="../image/logo-201305-b.png"/></div></a>
+            <div id="welcome" class="right"></div>
+        </div>
+    </div>
+    <div id="body" class="w">
+        <div id="no_commodity">
+            <div id="message">
+                <div id="message_">购物车内暂时没有商品，登录后将显示您之前加入的商品</div>
+                <a href="login.html"><div id="message_login" class="left">登录</div></a>
+                <a href="index.html"><div id="message_index" class="left">去购物></div></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
