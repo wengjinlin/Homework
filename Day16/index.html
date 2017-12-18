@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>后台管理</title>
+    <link rel="stylesheet" href="commons.css">
+</head>
+<body>
+    <div class="top">&nbsp;后台管理系统</div>
+    <div class="left">
+        <div class="menu">
+            <span>菜单一</span>
+        </div>
+        <div class="menu_content hide">
+            <p>1.内容一</p>
+            <p>1.内容二</p>
+            <p>1.内容三</p>
+        </div>
+        <div class="menu">
+            <span>菜单二</span>
+        </div>
+        <div class="menu_content hide">
+            <p>2.内容一</p>
+            <p>2.内容二</p>
+        </div>
+        <div class="menu">
+            <span>菜单三</span>
+        </div>
+        <div class="menu_content hide">
+            <p>3.内容一</p>
+            <p>3.内容二</p>
+            <p>3.内容三</p>
+        </div>
+        <div class="menu">
+            <span>菜单四</span>
+        </div>
+        <div class="menu_content hide">
+            <p>4.内容一</p>
+        </div>
+        <div class="menu">
+            <span>菜单五</span>
+        </div>
+        <div class="menu_content hide">
+            <p>5.内容一</p>
+            <p>5.内容二</p>
+            <p>5.内容三</p>
+            <p>5.内容四</p>
+        </div>
+        <div class="menu">
+            <span>菜单六</span>
+        </div>
+        <div class="menu_content hide">
+            <p>6.内容一</p>
+            <p>6.内容二</p>
+        </div>
+        <div class="menu">
+            <span>菜单七</span>
+        </div>
+        <div class="menu_content hide">
+            <p>7.内容一</p>
+            <p>7.内容二</p>
+            <p>7.内容三</p>
+        </div>
+        <div class="menu">
+            <span>菜单八</span>
+        </div>
+        <div class="menu_content hide">
+            <p>8.内容一</p>
+        </div>
+    </div>
+    <div class="right">
+        <div class="tab_bar">
+            <a>
+                <div id="first" class="tab_label active">
+                    <div class="tab_label_left"><div></div></div>
+                    <div class="tab_label_content">起始页</div>
+                    <div class="tab_label_right"><div></div></div>
+                </div>
+            </a>
+        </div>
+        <div class="content_box">
+            <div id="welcome" class="content">
+                <p>欢迎光临后台管理系统</p>
+                <div>双击可关闭标签页面</div>
+                <div class="homework">
+                    <div>
+                        <input type="button" name="check_all" value="全选"/>
+                        <input type="button" name="reverse" value="反选"/>
+                        <input type="button" name="cancel" value="取消"/>
+                        <span id="edit">进入编辑模式</span>
+                    </div>
+                    <div>
+                        <table class="tb1" border="1">
+                            <thead>
+                                <tr>
+                                    <th>选择</th>
+                                    <th>主机名</th>
+                                    <th>端口</th>
+                                    <th>状态</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td editing="false"><input type="checkbox" /></td>
+                                    <td>192.168.1.98</td>
+                                    <td>80</td>
+                                    <td>在线</td>
+                                </tr>
+                                <tr>
+                                    <td editing="false"><input type="checkbox" /></td>
+                                    <td>192.168.1.100</td>
+                                    <td>96</td>
+                                    <td>下线</td>
+                                </tr>
+                                <tr>
+                                    <td editing="false"><input type="checkbox" /></td>
+                                    <td>192.168.1.300</td>
+                                    <td>88</td>
+                                    <td>在线</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="jquery-1.12.4.js"></script>
+    <script src="commons.js"></script>
+</body>
+</html>
